@@ -146,11 +146,11 @@
 # condition is a>b
 # if a is greater than b then I want to return "a is greater"
 # if a is not greater than b then i want to return "b is greater"
-a=100
-b=60
-# x= block1 if condition else block2
-x="a is greater" if a>b else "b is greater than a"
-print(x)
+# a=100
+# b=60
+# # x= block1 if condition else block2
+# x="a is greater" if a>b else "b is greater than a"
+# print(x)
 
 # Write a program to check maximum of 3 numbers
 # Condition a>b and a>c -> then a is greater
@@ -189,11 +189,11 @@ b=20
 # print(fruits1 == fruits2)
 
 # write a program to check whether orange is there in fruit basket
-fruit='blueberry'
-fruit_basket = ['grape','orange','banana','blueberry']
-print(fruit in fruit_basket)
-msg=fruit + " is exist" if fruit in fruit_basket else fruit +" doesn't exist"
-print(msg)
+# fruit='blueberry'
+# fruit_basket = ['grape','orange','banana','blueberry']
+# print(fruit in fruit_basket)
+# msg=fruit + " is exist" if fruit in fruit_basket else fruit +" doesn't exist"
+# print(msg)
 
 # write a program to check given character is vowel or not using ternary operator
 # Ex : input = 'a'
@@ -201,4 +201,20 @@ print(msg)
 # Ex2 : input = 'z'
 # output = z is a consonant
 
-
+# BITWISE OPERATORS
+# print(4.5&5.6)
+# print(True&False)
+# print(True|False)
+# print(False&True)
+# print(False^True)
+# print(12&13) # 1100
+# print(10&20)
+# print(10|20)
+# print(10^20)
+# print(bin(12))
+# print(bin(13))
+# print(10<<2)
+# print(4<<2)
+# print(10>>2)
+# print(4>>2)
+print()
