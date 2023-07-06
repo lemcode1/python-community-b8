@@ -65,3 +65,5 @@
 #     print("{char} is a number".format(char=input_char))
 # else:
 #     print("It is not a number or character, please try with some other input")
+
+
