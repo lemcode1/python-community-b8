@@ -54,16 +54,41 @@
 
 # input_char=input("Please enter a char:")
 # print(input_char)
+# special_chars = ['!','@','#','$','%','^','&','*','(',')','[',']','-','=','_','<']
 # vowels=['a','e','i','o','u']
 # consonants= ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
 # numbers= range(0,10)
-# if input_char in vowels:
-#     print("{char} is a vowel".format(char=input_char))
-# elif input_char in consonants:
-#     print("{char} is a consonant".format(char=input_char))
-# elif int(input_char) in numbers: # '5' in 0,1,2,3,4,5,6,7,8,9
-#     print("{char} is a number".format(char=input_char))
+# if len(input_char)==1 and input_char not in special_chars:
+#     if input_char in vowels:
+#         print("{char} is a vowel".format(char=input_char))
+#     elif input_char in consonants:
+#         print("{char} is a consonant".format(char=input_char))
+#     elif int(input_char) in numbers: # '5' in 0,1,2,3,4,5,6,7,8,9
+#         print("{char} is a number".format(char=input_char))
+#     else:
+#         print("It is not a number or character, please try with some other input")
 # else:
-#     print("It is not a number or character, please try with some other input")
+#     print("You are not giving character, character length should be 1 or you must be giving a special character")
 
 
+# inner if
+# write a program to check given number is positive or negative or zero
+# x = int(input("Enter a number:"))
+# if x>=0:
+#     if x==0:
+#         print("Zeroo")
+#     else:
+#         print("Positive number")
+# else:
+#     print("Negative number")
+# person = 16
+# if person < 20:
+#     if person >= 18 and person <= 20:
+#         print("He is eligible to do internships in any field as well as preparing for competitive exams")
+#     else:
+#         if person > 10 and person <= 18:
+#             print("He is a high school student")
+#         else:
+#             print("He is an elementary student")
+# else:
+#     print("He is eligible to work in any software companies")
