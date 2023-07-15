@@ -95,3 +95,28 @@ n = 6
 #     for j in range(1,i): # 0 1 2 3 4
 #         print(j, end=' ')
 #     print()
+
+"""
+* * * * * * * * * * *
+        *
+        *
+        *
+        *
+        *
+        *
+        *              
+"""
+n=11
+for i in range(n):
+    for j in range(n):
+        if i == 0:
+            print("* ", end=' ')
+        elif j == 5:
+            print(" *")
+        elif j<=5:
+            print("   ",end='')
+            continue
+    if i==0:
+        print()
+
+

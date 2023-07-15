@@ -45,8 +45,8 @@ student_data = {'1234':'Jr Ntr','1235':'Ram charan'}
 # print(student_data[1235])
 # print(student_data.get(1235))
 # #print(student_data[11222])
-# print(student_data.get(112223))
-# print(student_data.get(111122,'No Value found for this key'))
+print(student_data.get(112223))
+print(student_data.get(111122,'No Value found for this key'))
 # student1 ={
 #     "id": 3061208,
 #     "name": "Bhaswar Pillai",
