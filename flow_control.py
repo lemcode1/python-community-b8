@@ -92,3 +92,5 @@
 #             print("He is an elementary student")
 # else:
 #     print("He is eligible to work in any software companies")
+
+calc_num(10,20)
