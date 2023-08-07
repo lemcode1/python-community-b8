@@ -3,6 +3,8 @@
 # def square_number(a):
 #     out= a**2
 #     return out
+from functools import reduce
+# from functools import *
 
 s=lambda a:a**2
 # print(square_number(3))
@@ -69,3 +71,54 @@ print(type(hundred_list))
 print(list(hundred_list))
 
 
+#map()
+# WAP to square each item from the list
+l = [1,2,3,4,5]
+# def square_value(x):
+#     return x**2
+
+# output = map(square_value, l)
+output = map(lambda x:x**2, l)
+# output = filter(lambda x:x**2, l)
+print(list(output))
+
+salaries = [1000,2000,4000,5000,500,600]
+# bonus = 20% of their salary
+final_salaries = list(map(lambda salary:salary*0.2+salary, salaries))
+high_paid_employees = filter(lambda salary:salary>2000, salaries)
+# def add_bonus(salaries):
+#     final_salaries= []
+#     for salary in salaries:
+#         final_salaries.append(salary * 0.2 + salary)
+#     return final_salaries
+#
+# final_salaries = add_bonus(salaries)
+print(final_salaries)
+print(list(high_paid_employees))
+
+
+# [1,2,3,4,5] => 1+2+3+4+5 = 15
+l2=[1,2,3,4,5]
+final_sum = reduce(lambda x,y:x+y, salaries)
+print(final_sum)
+final_sum = reduce(lambda x,y:x+y, range(1,100))
+print(final_sum)
+
+#
+
+def wish_message(name):
+    print("Good morning!! ", name)
+
+wish_message('Chiru')
+wish = wish_message # function aliasing
+wish('Chiru')
+
+def outer_func():
+    print("inside outer first line")
+    def inner_func():
+        print("insider inner function")
+    print("inside outer func last line")
+    inner_func()
+
+outer_func()
+# inner_func()
