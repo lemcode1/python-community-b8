@@ -122,3 +122,7 @@ def outer_func():
 
 outer_func()
 # inner_func()
+
+
+str1="01-01-2021"
+print(str1.split('-'))
