@@ -68,7 +68,6 @@ print("Simple interest is :",interest)
 final_amount= amount+interest
 print("final amount is ",final_amount)
 
-print(zip("abc","xyz"))
 
 
 
