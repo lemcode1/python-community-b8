@@ -1,7 +1,7 @@
 # human being
 class Employee:
     """
-    Creating this classs to explain and implement the behaviour/actions of any humanbeing
+    Creating this class to explain and implement the behaviour/actions of any humanbeing
     """
     def __init__(self, emp_no, name, mobile_no, mail):
         self.emp_no = emp_no
@@ -26,12 +26,19 @@ class Employee:
 # obj2 = Employee() # creating an object
 # obj2.add_employee() # calling the method inside class
 # print(id(obj2))
+if __name__ == '__main__':
+    emp1 = Employee(1234,"kasi","123456","test@gmail.com") # we are creating an object with attributes
+    emp1.add_employee()
 
-emp1 = Employee(1234,"kasi","123456","test@gmail.com") # we are creating an object with attributes
-emp1.add_employee()
+    emp2 = Employee(1235,"Ravi","123234456","test2@gmail.com") # we are creating an object with attributes
+    emp2.add_employee()
 
-emp2 = Employee(1235,"Ravi","123234456","test2@gmail.com") # we are creating an object with attributes
-emp2.add_employee()
+    a = int(4)  # creating object of int
+    print(type(a))
+    print(a)
+    print(type(emp2))
+
+
 
 
 # Create a class called Dog , it should bark, it should eat, it should drink, it should sleep
