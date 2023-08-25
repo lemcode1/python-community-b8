@@ -43,4 +43,3 @@ pin = input("Please enter the pin")
 withdraw_amount = input("How much you want to withdraw")
 
 
-# create a program to take user inputs for employee and salary and show the final salary
