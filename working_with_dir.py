@@ -13,7 +13,7 @@ print("Current working directory ", cwd)
 # os.removedirs("subfolder1/subfolder2")
 
 # To rename a directory/folder
-os.rename("subtest", "newsubtest")
+# os.rename("subtest", "newsubtest")
 
 # Create a folder name is employee_data and create a CSV file(emp.csv) for 10 employees, read and write data,
 # I want only the employees whose salary is above 3000
@@ -24,3 +24,15 @@ os.rename("subtest", "newsubtest")
 # CLARK	ACCOUNTING	MANAGER	7782	09-JUN-81	NEW YORK 3500
 # FORD	RESEARCH	ANALYST	7902	03-DEC-81	DALLAS   4000
 # JAMES	SALES	CLERK	7900	03-DEC-81	CHICAGO      500
+
+# to Know the contents of the directory ->
+print(os.listdir("C:\Kasi\lemcode\Trainings\Python\python-community-b8\cloths"))
+# to know the contents of directory including subdirectory -> walk()
+print(os.walk("C:\Kasi\lemcode\Trainings\Python\python-community-b8\cloths"))
+for dirpath, dirnames, filenames in os.walk("C:\Kasi\lemcode\Trainings\Python\python-community-b8\cloths"):
+    print("Directory :", dirpath)
+    print("directories :", dirnames)
+    print("Files :", filenames)
+    print("===========")
+
+os.system("python test.py")
